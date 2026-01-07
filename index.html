@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognition Incorporated | Undergraduate Research & Tech Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="img/logo cog.png" rel="shortcut icon" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-image">
+                    <!-- Uncomment below and remove above when you have logo -->
+                    <img src="img/logo cog.png" alt="Cognition Incorporated Logo" class="logo-img">
+                </div>
+                <div class="logo-text">
+                    <h1>Cognition <span>Incorporated</span></h1>
+                    <p>Undergraduate Research & Tech Innovation</p>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuButton">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="navigationMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#departments">Departments</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Transform Your Final Year Project Into Career Success</h2>
+            <p>At Cognition Incorporated, we bridge academic learning with real-world impact. Join 500+ students who turned their final year projects into published research, startups, and job offers at top companies.</p>
+            
+            <div class="psychology-text">
+                <strong>Opportunity Alert:</strong> 94% of our students secure employment or advanced education within 3 months of graduation. Your project could be the differentiator that sets you apart.
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">View Success Stories</a>
+                <a href="#contact" class="btn btn-secondary">Start Your Journey Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section class="departments" id="departments">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Specialized Hubs</h2>
+                <p>Two complementary approaches to undergraduate excellence</p>
+            </div>
+            
+            <div class="departments-container">
+                <!-- Research Hub Card -->
+                <div class="department-card" id="research">
+                    <div class="department-header research-header">
+                        <div class="department-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Research Hub</h3>
+                        <p>Transforming ideas into knowledge through systematic inquiry</p>
+                    </div>
+                    <div class="department-content">
+                        <p>Our Research Hub focuses on academic research works and the strategic use of IT tools to enhance research quality and impact. We guide students through the entire research process.</p>
+                        
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Research methodology design and planning</li>
+                            <li><i class="fas fa-check-circle"></i> Literature review and academic writing</li>
+                            <li><i class="fas fa-check-circle"></i> Data analysis with advanced IT tools</li>
+                            <li><i class="fas fa-check-circle"></i> Publication guidance and support</li>
+                            <li><i class="fas fa-check-circle"></i> Research ethics and integrity training</li>
+                        </ul>
+                        
+                        <div class="psychology-text">
+                            <strong>Proven Advantage:</strong> Students who complete rigorous research projects are 3x more likely to secure competitive graduate program admissions and research grants.
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center;">Start Your Research Journey</a>
+                    </div>
+                </div>
+                
+                <!-- Tech Hub Card -->
+                <div class="department-card" id="tech">
+                    <div class="department-header tech-header">
+                        <div class="department-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Tech Hub</h3>
+                        <p>Building solutions that address real-world challenges</p>
+                    </div>
+                    <div class="department-content">
+                        <p>Our Tech Hub focuses on software and hardware projects, from concept to deployment. We help students develop market-ready technological solutions.</p>
+                        
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Software development (web, mobile, desktop)</li>
+                            <li><i class="fas fa-check-circle"></i> Hardware prototyping and IoT solutions</li>
+                            <li><i class="fas fa-check-circle"></i> UI/UX design and human-centered development</li>
+                            <li><i class="fas fa-check-circle"></i> Project management and agile methodologies</li>
+                            <li><i class="fas fa-check-circle"></i> Deployment and scalability planning</li>
+                        </ul>
+                        
+                        <div class="psychology-text">
+                            <strong>Career Accelerator:</strong> 72% of tech hub participants receive job offers or startup funding before graduation based on their project portfolios.
+                        </div>
+                        
+                        <a href="#contact" class="btn btn-primary" style="width: 100%; text-align: center; background-color: var(--accent-color);">Launch Your Tech Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Potential Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>Potential Project Success Stories</h2>
+                <p>Real projects that started as undergraduate research and became impactful solutions</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-badge">Research Hub</div>
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>AI-Powered Academic Performance Predictor</h3>
+                    <p class="project-stats"><i class="fas fa-user-graduate"></i> 4 students | <i class="fas fa-calendar"></i> 6 months</p>
+                    <p>Machine learning system that predicts student performance and suggests personalized interventions, published in International Journal of Educational Technology.</p>
+                    <div class="project-outcome">
+                        <h4><i class="fas fa-trophy"></i> Outcomes:</h4>
+                        <ul>
+                            <li>Published in Q1 journal</li>
+                            <li>Adopted by 3 universities</li>
+                            <li>Team members secured PhD positions</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-badge tech">Tech Hub</div>
+                    <div class="project-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>Smart Health Monitoring Wearable</h3>
+                    <p class="project-stats"><i class="fas fa-user-graduate"></i> 3 students | <i class="fas fa-calendar"></i> 8 months</p>
+                    <p>IoT device that monitors vital signs and alerts healthcare providers of abnormalities, combining hardware prototyping with mobile app development.</p>
+                    <div class="project-outcome">
+                        <h4><i class="fas fa-trophy"></i> Outcomes:</h4>
+                        <ul>
+                            <li>Patent filed</li>
+                            <li>Startup funding secured ($150k)</li>
+                            <li>Clinical trials initiated</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-badge">Research Hub</div>
+                    <div class="project-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustainable Agriculture Data Analytics</h3>
+                    <p class="project-stats"><i class="fas fa-user-graduate"></i> 5 students | <i class="fas fa-calendar"></i> 9 months</p>
+                    <p>Data analysis platform that optimizes crop yields using satellite imagery and climate data, resulting in 30% reduction in water usage for partnered farms.</p>
+                    <div class="project-outcome">
+                        <h4><i class="fas fa-trophy"></i> Outcomes:</h4>
+                        <ul>
+                            <li>Presented at 3 international conferences</li>
+                            <li>Government grant awarded ($75k)</li>
+                            <li>Commercial license sold to agri-tech firm</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-badge tech">Tech Hub</div>
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Autonomous Campus Delivery Robot</h3>
+                    <p class="project-stats"><i class="fas fa-user-graduate"></i> 6 students | <i class="fas fa-calendar"></i> 12 months</p>
+                    <p>AI-driven robot that navigates campus to deliver packages, combining computer vision, pathfinding algorithms, and hardware integration.</p>
+                    <div class="project-outcome">
+                        <h4><i class="fas fa-trophy"></i> Outcomes:</h4>
+                        <ul>
+                            <li>Deployed on university campus</li>
+                            <li>Team won national robotics competition</li>
+                            <li>All members received Google/Microsoft offers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="project-cta">
+                <p class="psychology-text">These projects started as simple ideas in students' final years. <strong>Your project could be next.</strong> We have 15 project slots available for the upcoming semester.</p>
+                <a href="#contact" class="btn btn-primary">Reserve Your Project Slot</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Development Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Proven Development Process</h2>
+                <p>A structured 6-step journey from idea to impact</p>
+            </div>
+            
+            <div class="process-timeline">
+                <div class="process-step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-lightbulb"></i> Ideation & Consultation</h3>
+                        <p>We help refine your project idea through brainstorming sessions and feasibility analysis. Every great project starts with the right question.</p>
+                        <div class="step-duration">Week 1-2</div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-clipboard-check"></i> Proposal & Planning</h3>
+                        <p>Structured project proposal development with clear objectives, methodology, timeline, and resource allocation. We create the roadmap to success.</p>
+                        <div class="step-duration">Week 3-4</div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-flask"></i> Research & Development</h3>
+                        <p>Guided implementation phase with weekly mentor check-ins, technical support, and problem-solving sessions. This is where ideas become reality.</p>
+                        <div class="step-duration">Week 5-16</div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-chart-bar"></i> Testing & Validation</h3>
+                        <p>Rigorous testing, data analysis, and validation to ensure quality and impact. We help you prove your project's worth with solid evidence.</p>
+                        <div class="step-duration">Week 17-20</div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-file-alt"></i> Documentation & Packaging</h3>
+                        <p>Professional documentation, thesis writing, and portfolio packaging. We transform your work into a compelling narrative for academic and professional audiences.</p>
+                        <div class="step-duration">Week 21-24</div>
+                    </div>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3><i class="fas fa-rocket"></i> Dissemination & Launch</h3>
+                        <p>Publication support, conference presentations, startup launch, or job placement assistance. We ensure your work gets the recognition it deserves.</p>
+                        <div class="step-duration">Week 25-26+</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="process-stats">
+                <div class="stat-item">
+                    <div class="stat-number">96%</div>
+                    <div class="stat-label">Completion Rate</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8/5.0</div>
+                    <div class="stat-label">Student Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">42</div>
+                    <div class="stat-label">Publications</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">18</div>
+                    <div class="stat-label">Startups Launched</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Messaging Section -->
+    <section class="messaging" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Start Your Project Today</h2>
+                <p>Limited spots available for next semester - Apply now for priority consideration</p>
+            </div>
+            
+            <div class="messaging-container">
+                <div class="urgency-banner">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span><strong>Deadline Alert:</strong> Only 8 of 15 project slots remain for next semester. Applications reviewed on rolling basis.</span>
+                </div>
+                
+                <h3>Get Personalized Guidance</h3>
+                
+                <div class="psychology-text">
+                    <strong>Exclusive Offer:</strong> First 5 applicants this month receive free project consultation and priority mentor matching. Your journey to impactful work starts here.
+                </div>
+                
+                <form id="contactForm" class="message-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="university">University/Institution</label>
+                        <input type="text" id="university" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="departmentSelect">Department of Interest</label>
+                        <select id="departmentSelect" required>
+                            <option value="">Select a department</option>
+                            <option value="research">Research Hub</option>
+                            <option value="tech">Tech Hub</option>
+                            <option value="both">Both Hubs</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Tell us about your project idea or research interest</label>
+                        <textarea id="message" placeholder="Briefly describe your project idea, what you hope to achieve, and any specific challenges you anticipate..." required></textarea>
+                    </div>
+                    
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" checked>
+                        <label for="newsletter">Yes, send me project success stories and deadline reminders</label>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Apply for Project Slot</button>
+                </form>
+                
+                <div id="successNotification" class="success-message">
+                    <i class="fas fa-check-circle"></i> <strong>Application Received!</strong> Thank you for your interest! We'll contact you within 24 hours to schedule your free consultation.
+                </div>
+                
+                <div class="contact-methods">
+                    <a href="https://wa.me/233500552193?text=Hello%20Cognition%20Incorporated%2C%20I%20want%20to%20apply%20for%20a%20project%20slot" class="contact-btn whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Fast-Track on WhatsApp
+                    </a>
+                    
+                    <a href="mailto:cognitio.incorporated@gmail.com?subject=Project%20Slot%20Application&body=Hello%20Cognition%20Incorporated%2C%0A%0AI%20would%20like%20to%20apply%20for%20a%20project%20slot%20for%20next%20semester.%0A%0AMy%20details%3A" class="contact-btn email-btn">
+                        <i class="fas fa-envelope"></i> Apply via Email
+                    </a>
+                </div>
+                
+                <div class="response-time">
+                    <i class="fas fa-clock"></i> <strong>Quick Response Guarantee:</strong> We respond to all applications within 24 hours
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <div class="logo-placeholder footer-logo-placeholder">
+                            <i class="fas fa-brain"></i>
+                            <span>CI</span>
+                        </div>
+                        <h4>Cognition Incorporated</h4>
+                    </div>
+                    <p>Transforming undergraduate final year projects into impactful research and technological innovations since 2018.</p>
+                    <p>We bridge the gap between academic learning and real-world application.</p>
+                    <div class="footer-certifications">
+                        <span class="cert-badge"><i class="fas fa-award"></i> ISO 9001 Certified</span>
+                        <span class="cert-badge"><i class="fas fa-shield-alt"></i> Data Protected</span>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <p><a href="#home">Home</a></p>
+                    <p><a href="#departments">Departments</a></p>
+                    <p><a href="#projects">Success Projects</a></p>
+                    <p><a href="#process">Our Process</a></p>
+                    <p><a href="#contact">Apply Now</a></p>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Contact Information</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Sunyani, Accra, Kumasi</p>
+                    <p><i class="fas fa-phone"></i> +233 50 055 2193</p>
+                    <p><i class="fas fa-envelope"></i> cognitio.incorporated@gmail.com</p>
+                    <p><i class="fas fa-clock"></i> Sun-Sat: 24 hours</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Cognition Incorporated. All rights reserved. | Designed for Cloudflare hosting | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
